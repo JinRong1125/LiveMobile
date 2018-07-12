@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent_90">#E6000000</color>
+    <color name="transparent_80">#CC000000</color>
+    <color name="transparent_70">#B3000000</color>
+    <color name="transparent_60">#99000000</color>
+    <color name="transparent_50">#80000000</color>
+    <color name="transparent_40">#66000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_second">#e6e6e6</color>
+    <color name="white_third">#eeeeee</color>
+
+    <color name="black">#000000</color>
+
+    <color name="gray_first">#333333</color>
+    <color name="gray_second">#7d7d7d</color>
+    <color name="gray_third">#888888</color>
+
+    <color name="purple_first">#4635aa</color>
+    <color name="purple_second">#6b5acd</color>
+    <color name="purple_third">#8370fe</color>
+    <color name="purple_forth">#9999ff</color>
+
+    <color name="red">#ff0000</color>
+
+    <color name="username0">#e21400</color>
+    <color name="username1">#91580f</color>
+    <color name="username2">#f8a700</color>
+    <color name="username3">#f78b00</color>
+    <color name="username4">#58dc00</color>
+    <color name="username5">#287b00</color>
+    <color name="username6">#a8f07a</color>
+    <color name="username7">#4ae8c4</color>
+    <color name="username8">#3b88eb</color>
+    <color name="username9">#3824aa</color>
+    <color name="username10">#a700ff</color>
+    <color name="username11">#d300e7</color>
+
+</resources>

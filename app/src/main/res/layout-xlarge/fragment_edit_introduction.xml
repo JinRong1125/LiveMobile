@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/purple_forth">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/back_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="@dimen/margin_10"
+                android:layout_gravity="center|start"
+                android:background="@drawable/icon_back" />
+
+            <TextView
+                style="@style/title_text"
+                android:text="@string/introduction_edit"/>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_10"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/content_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter" />
+
+                <ProgressBar
+                    android:id="@+id/image_progress"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:indeterminateTint="@color/purple_second" />
+
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/content_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/margin_10"
+                android:layout_marginEnd="@dimen/margin_10"
+                android:gravity="start|top"
+                android:background="@drawable/border_purple"
+                android:textCursorDrawable="@drawable/cursor_black"
+                android:padding="5dp"
+                android:hint="@string/content_text"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_10"
+                android:layout_gravity="center|bottom"
+                android:background="@color/purple_first"
+                android:text="@string/submit"
+                android:textSize="20sp"
+                android:textColor="@color/purple_forth" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/submit_progress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/purple_second"
+            android:visibility="gone" />
+
+    </FrameLayout>
+</LinearLayout>

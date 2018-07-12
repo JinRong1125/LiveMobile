@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">TliveMobile</string>
+
+
+    <!-- framgent_login -->
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="account">ACCOUNT</string>
+    <string name="password">PASSWORD</string>
+    <string name="user_name">USER NAME</string>
+    <string name="email">E-MAIL</string>
+    <string name="submit">SUBMIT</string>
+    <string name="login_hint">Couldn\'t sign in?</string>
+
+    <!-- fragment_user -->
+    <string name="subscribing">Subscribing</string>
+    <string name="subscribers">Subscribers</string>
+    <string name="history">History</string>
+    <string name="panels">Panels</string>
+    <string name="change_avatar">Change Avatar Image</string>
+    <string name="change_name">Change User Name</string>
+    <string name="name_message">Please type your new nickname.</string>
+
+    <!-- fragment_search -->
+    <string name="nothing_message">Nothing found.</string>
+
+    <!-- fragment_new_stream -->
+    <string name="new_stream">NEW STREAM</string>
+    <string name="title">TITLE</string>
+    <string name="category">CATEGORY</string>
+    <string name="start">START</string>
+    <string name="change_platoform_image">Change Platform Image</string>
+
+    <!-- fragment_introduction -->
+    <string name="introduction_title">INTRODUCTION</string>
+    <string name="introduction_add">NEW INTRODUCE</string>
+    <string name="introduction_edit">EDIT INTRODUCE</string>
+    <string name="add_content_image">Post Content Image</string>
+    <string name="edit_content_iamge">Change Content Image</string>
+    <string name="content_image">Post picture here</string>
+    <string name="content_text">Text something about this channel&#8230;</string>
+
+    <!-- fragment_publish -->
+    <string name="publish_start">Stream Started</string>
+    <string name="publish_stop">Stream Stopped</string>
+
+    <!-- fragment_watch -->
+    <string name="subscribe">Subscribe</string>
+    <string name="un_subscribe">Unsubscribe</string>
+    <string name="subscribed_msg">&#160;just subscribed!</string>
+
+    <!-- fragment_chat -->
+    <string name="chat_room">CHAT ROOM</string>
+    <string name="connect_message">Connecting&#8230;</string>
+    <string name="message_hint">say something&#8230;</string>
+    <string name="send_message">Send</string>
+    <string name="typing_message">is typing</string>
+
+    <!-- fragment_subscribing -->
+    <string name="subscribing_title">SUBSCRIBING</string>
+    <string name="state_on">ON NOW :&#160;</string>
+    <string name="state_off">OFFLINE</string>
+
+    <!-- fragment_subscribing -->
+    <string name="subscribers_title">SUBSCRIBERS</string>
+
+    <!-- fragment_streamlist -->
+    <string name="live">LIVE</string>
+
+    <!-- service_error -->
+    <string name="request_failure">&#160;request failed</string>
+    <string name="timeout_failure">Service unavailable. Please try again later.</string>
+
+    <!-- setting_menu -->
+    <string name="logout">Logout</string>
+
+    <!-- photo_upload -->
+    <string name="photo_message">Please choose the way to set your picture.</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="photo_file">photo.jpg</string>
+    <string name="type_file_jpg">image/jpg</string>
+
+    <!-- dialog_option -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

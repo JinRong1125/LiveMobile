@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.tti.tlivemobile"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 2
+        versionName "1.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:recyclerview-v7:25.0.+'
+    compile 'com.google.android.exoplayer:exoplayer:r2.3.1'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'net.skoumal.fragmentback:fragment-back:0.2.3'
+    compile 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.1.0'
+    compile 'com.linsea:opendanmaku:1.0.0@aar'
+    testCompile 'junit:junit:4.12'
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    compile('io.socket:socket.io-client:0.8.3') {
+        exclude group: 'org.json', module: 'json'
+    }
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.squareup.retrofit:converter-jackson:1.7.1'
+    compile 'com.squareup.okhttp:okhttp:2.2.0'
+    compile('com.octo.android.robospice:robospice-retrofit:1.4.14') {
+        exclude(group: 'org.apache.httpcomponents', module: 'httpclient')
+        exclude group: 'commons-io', module: 'commons-io'
+        exclude group: 'com.google.code.gson'
+        exclude group: 'com.squareup.retrofit'
+    }
+    compile project(path: ':rtmplibrary')
+    compile files('libs/tlivelibrary.jar')
+}
